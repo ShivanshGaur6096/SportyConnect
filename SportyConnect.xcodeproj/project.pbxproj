@@ -1,0 +1,714 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2035E7832ACEC04900DE31DF /* BottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2035E7822ACEC04900DE31DF /* BottomSheet.swift */; };
+		2096FD0A2AC0C8FA00A92E05 /* SportyConnectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2096FD092AC0C8FA00A92E05 /* SportyConnectApp.swift */; };
+		2096FD0E2AC0C8FC00A92E05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2096FD0D2AC0C8FC00A92E05 /* Assets.xcassets */; };
+		2096FD112AC0C8FC00A92E05 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2096FD102AC0C8FC00A92E05 /* Preview Assets.xcassets */; };
+		2096FD1B2AC0C8FD00A92E05 /* SportyConnectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2096FD1A2AC0C8FD00A92E05 /* SportyConnectTests.swift */; };
+		2096FD252AC0C8FD00A92E05 /* SportyConnectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2096FD242AC0C8FD00A92E05 /* SportyConnectUITests.swift */; };
+		2096FD272AC0C8FD00A92E05 /* SportyConnectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2096FD262AC0C8FD00A92E05 /* SportyConnectUITestsLaunchTests.swift */; };
+		2096FD342AC0CCDE00A92E05 /* AppTheamSelectionScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2096FD332AC0CCDE00A92E05 /* AppTheamSelectionScreen.swift */; };
+		2096FD362AC1EED200A92E05 /* AppThemeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2096FD352AC1EED200A92E05 /* AppThemeModel.swift */; };
+		2096FD3F2AC443CD00A92E05 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2096FD3E2AC443CD00A92E05 /* CardView.swift */; };
+		2096FD412AC4444C00A92E05 /* CardContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2096FD402AC4444C00A92E05 /* CardContentView.swift */; };
+		2096FD482AC4496B00A92E05 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2096FD472AC4496B00A92E05 /* LogInView.swift */; };
+		2096FD4A2AC4966A00A92E05 /* SignInContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2096FD492AC4966A00A92E05 /* SignInContentView.swift */; };
+		2096FD4D2AC4997800A92E05 /* LoginBGImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2096FD4C2AC4997700A92E05 /* LoginBGImageView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2096FD172AC0C8FC00A92E05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2096FCFE2AC0C8FA00A92E05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2096FD052AC0C8FA00A92E05;
+			remoteInfo = SportyConnect;
+		};
+		2096FD212AC0C8FD00A92E05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2096FCFE2AC0C8FA00A92E05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2096FD052AC0C8FA00A92E05;
+			remoteInfo = SportyConnect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2035E7822ACEC04900DE31DF /* BottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheet.swift; sourceTree = "<group>"; };
+		2096FD062AC0C8FA00A92E05 /* SportyConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportyConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2096FD092AC0C8FA00A92E05 /* SportyConnectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportyConnectApp.swift; sourceTree = "<group>"; };
+		2096FD0D2AC0C8FC00A92E05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2096FD102AC0C8FC00A92E05 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2096FD162AC0C8FC00A92E05 /* SportyConnectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SportyConnectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2096FD1A2AC0C8FD00A92E05 /* SportyConnectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportyConnectTests.swift; sourceTree = "<group>"; };
+		2096FD202AC0C8FD00A92E05 /* SportyConnectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SportyConnectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2096FD242AC0C8FD00A92E05 /* SportyConnectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportyConnectUITests.swift; sourceTree = "<group>"; };
+		2096FD262AC0C8FD00A92E05 /* SportyConnectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportyConnectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2096FD332AC0CCDE00A92E05 /* AppTheamSelectionScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheamSelectionScreen.swift; sourceTree = "<group>"; };
+		2096FD352AC1EED200A92E05 /* AppThemeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppThemeModel.swift; sourceTree = "<group>"; };
+		2096FD3E2AC443CD00A92E05 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		2096FD402AC4444C00A92E05 /* CardContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardContentView.swift; sourceTree = "<group>"; };
+		2096FD472AC4496B00A92E05 /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+		2096FD492AC4966A00A92E05 /* SignInContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInContentView.swift; sourceTree = "<group>"; };
+		2096FD4C2AC4997700A92E05 /* LoginBGImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginBGImageView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2096FD032AC0C8FA00A92E05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2096FD132AC0C8FC00A92E05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2096FD1D2AC0C8FD00A92E05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2096FCFD2AC0C8FA00A92E05 = {
+			isa = PBXGroup;
+			children = (
+				2096FD082AC0C8FA00A92E05 /* SportyConnect */,
+				2096FD192AC0C8FC00A92E05 /* SportyConnectTests */,
+				2096FD232AC0C8FD00A92E05 /* SportyConnectUITests */,
+				2096FD072AC0C8FA00A92E05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2096FD072AC0C8FA00A92E05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2096FD062AC0C8FA00A92E05 /* SportyConnect.app */,
+				2096FD162AC0C8FC00A92E05 /* SportyConnectTests.xctest */,
+				2096FD202AC0C8FD00A92E05 /* SportyConnectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2096FD082AC0C8FA00A92E05 /* SportyConnect */ = {
+			isa = PBXGroup;
+			children = (
+				2096FD372AC1F08000A92E05 /* Modules */,
+				2096FD0D2AC0C8FC00A92E05 /* Assets.xcassets */,
+				2096FD0F2AC0C8FC00A92E05 /* Preview Content */,
+			);
+			path = SportyConnect;
+			sourceTree = "<group>";
+		};
+		2096FD0F2AC0C8FC00A92E05 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2096FD102AC0C8FC00A92E05 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2096FD192AC0C8FC00A92E05 /* SportyConnectTests */ = {
+			isa = PBXGroup;
+			children = (
+				2096FD1A2AC0C8FD00A92E05 /* SportyConnectTests.swift */,
+			);
+			path = SportyConnectTests;
+			sourceTree = "<group>";
+		};
+		2096FD232AC0C8FD00A92E05 /* SportyConnectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2096FD242AC0C8FD00A92E05 /* SportyConnectUITests.swift */,
+				2096FD262AC0C8FD00A92E05 /* SportyConnectUITestsLaunchTests.swift */,
+			);
+			path = SportyConnectUITests;
+			sourceTree = "<group>";
+		};
+		2096FD372AC1F08000A92E05 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				2096FD092AC0C8FA00A92E05 /* SportyConnectApp.swift */,
+				2096FD432AC4491E00A92E05 /* LoginPage */,
+				2096FD3C2AC4431700A92E05 /* SwipeCardView */,
+				2096FD382AC1F09300A92E05 /* ThemeSelection */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		2096FD382AC1F09300A92E05 /* ThemeSelection */ = {
+			isa = PBXGroup;
+			children = (
+				2096FD3B2AC1F0B900A92E05 /* ViewModel */,
+				2096FD3A2AC1F0B000A92E05 /* View */,
+				2096FD392AC1F0A500A92E05 /* Model */,
+			);
+			path = ThemeSelection;
+			sourceTree = "<group>";
+		};
+		2096FD392AC1F0A500A92E05 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2096FD352AC1EED200A92E05 /* AppThemeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2096FD3A2AC1F0B000A92E05 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2096FD332AC0CCDE00A92E05 /* AppTheamSelectionScreen.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2096FD3B2AC1F0B900A92E05 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2096FD3C2AC4431700A92E05 /* SwipeCardView */ = {
+			isa = PBXGroup;
+			children = (
+				2096FD3D2AC4432C00A92E05 /* Views */,
+			);
+			path = SwipeCardView;
+			sourceTree = "<group>";
+		};
+		2096FD3D2AC4432C00A92E05 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2096FD3E2AC443CD00A92E05 /* CardView.swift */,
+				2096FD422AC4449700A92E05 /* SubViews */,
+				2035E7822ACEC04900DE31DF /* BottomSheet.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2096FD422AC4449700A92E05 /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				2096FD402AC4444C00A92E05 /* CardContentView.swift */,
+			);
+			path = SubViews;
+			sourceTree = "<group>";
+		};
+		2096FD432AC4491E00A92E05 /* LoginPage */ = {
+			isa = PBXGroup;
+			children = (
+				2096FD442AC4492900A92E05 /* Modal */,
+				2096FD452AC4493600A92E05 /* View */,
+				2096FD462AC4493C00A92E05 /* ViewModel */,
+			);
+			path = LoginPage;
+			sourceTree = "<group>";
+		};
+		2096FD442AC4492900A92E05 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		2096FD452AC4493600A92E05 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2096FD472AC4496B00A92E05 /* LogInView.swift */,
+				2096FD4B2AC4994100A92E05 /* LoginSubViews */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2096FD462AC4493C00A92E05 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2096FD4B2AC4994100A92E05 /* LoginSubViews */ = {
+			isa = PBXGroup;
+			children = (
+				2096FD492AC4966A00A92E05 /* SignInContentView.swift */,
+				2096FD4C2AC4997700A92E05 /* LoginBGImageView.swift */,
+			);
+			path = LoginSubViews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2096FD052AC0C8FA00A92E05 /* SportyConnect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2096FD2A2AC0C8FD00A92E05 /* Build configuration list for PBXNativeTarget "SportyConnect" */;
+			buildPhases = (
+				2096FD022AC0C8FA00A92E05 /* Sources */,
+				2096FD032AC0C8FA00A92E05 /* Frameworks */,
+				2096FD042AC0C8FA00A92E05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SportyConnect;
+			productName = SportyConnect;
+			productReference = 2096FD062AC0C8FA00A92E05 /* SportyConnect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2096FD152AC0C8FC00A92E05 /* SportyConnectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2096FD2D2AC0C8FD00A92E05 /* Build configuration list for PBXNativeTarget "SportyConnectTests" */;
+			buildPhases = (
+				2096FD122AC0C8FC00A92E05 /* Sources */,
+				2096FD132AC0C8FC00A92E05 /* Frameworks */,
+				2096FD142AC0C8FC00A92E05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2096FD182AC0C8FC00A92E05 /* PBXTargetDependency */,
+			);
+			name = SportyConnectTests;
+			productName = SportyConnectTests;
+			productReference = 2096FD162AC0C8FC00A92E05 /* SportyConnectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2096FD1F2AC0C8FD00A92E05 /* SportyConnectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2096FD302AC0C8FD00A92E05 /* Build configuration list for PBXNativeTarget "SportyConnectUITests" */;
+			buildPhases = (
+				2096FD1C2AC0C8FD00A92E05 /* Sources */,
+				2096FD1D2AC0C8FD00A92E05 /* Frameworks */,
+				2096FD1E2AC0C8FD00A92E05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2096FD222AC0C8FD00A92E05 /* PBXTargetDependency */,
+			);
+			name = SportyConnectUITests;
+			productName = SportyConnectUITests;
+			productReference = 2096FD202AC0C8FD00A92E05 /* SportyConnectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2096FCFE2AC0C8FA00A92E05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					2096FD052AC0C8FA00A92E05 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					2096FD152AC0C8FC00A92E05 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 2096FD052AC0C8FA00A92E05;
+					};
+					2096FD1F2AC0C8FD00A92E05 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 2096FD052AC0C8FA00A92E05;
+					};
+				};
+			};
+			buildConfigurationList = 2096FD012AC0C8FA00A92E05 /* Build configuration list for PBXProject "SportyConnect" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2096FCFD2AC0C8FA00A92E05;
+			productRefGroup = 2096FD072AC0C8FA00A92E05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2096FD052AC0C8FA00A92E05 /* SportyConnect */,
+				2096FD152AC0C8FC00A92E05 /* SportyConnectTests */,
+				2096FD1F2AC0C8FD00A92E05 /* SportyConnectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2096FD042AC0C8FA00A92E05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2096FD112AC0C8FC00A92E05 /* Preview Assets.xcassets in Resources */,
+				2096FD0E2AC0C8FC00A92E05 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2096FD142AC0C8FC00A92E05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2096FD1E2AC0C8FD00A92E05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2096FD022AC0C8FA00A92E05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2096FD342AC0CCDE00A92E05 /* AppTheamSelectionScreen.swift in Sources */,
+				2035E7832ACEC04900DE31DF /* BottomSheet.swift in Sources */,
+				2096FD4A2AC4966A00A92E05 /* SignInContentView.swift in Sources */,
+				2096FD0A2AC0C8FA00A92E05 /* SportyConnectApp.swift in Sources */,
+				2096FD362AC1EED200A92E05 /* AppThemeModel.swift in Sources */,
+				2096FD4D2AC4997800A92E05 /* LoginBGImageView.swift in Sources */,
+				2096FD412AC4444C00A92E05 /* CardContentView.swift in Sources */,
+				2096FD3F2AC443CD00A92E05 /* CardView.swift in Sources */,
+				2096FD482AC4496B00A92E05 /* LogInView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2096FD122AC0C8FC00A92E05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2096FD1B2AC0C8FD00A92E05 /* SportyConnectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2096FD1C2AC0C8FD00A92E05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2096FD272AC0C8FD00A92E05 /* SportyConnectUITestsLaunchTests.swift in Sources */,
+				2096FD252AC0C8FD00A92E05 /* SportyConnectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2096FD182AC0C8FC00A92E05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2096FD052AC0C8FA00A92E05 /* SportyConnect */;
+			targetProxy = 2096FD172AC0C8FC00A92E05 /* PBXContainerItemProxy */;
+		};
+		2096FD222AC0C8FD00A92E05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2096FD052AC0C8FA00A92E05 /* SportyConnect */;
+			targetProxy = 2096FD212AC0C8FD00A92E05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2096FD282AC0C8FD00A92E05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2096FD292AC0C8FD00A92E05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2096FD2B2AC0C8FD00A92E05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SportyConnect/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shivansh.SportyConnect.SportyConnect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2096FD2C2AC0C8FD00A92E05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SportyConnect/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shivansh.SportyConnect.SportyConnect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2096FD2E2AC0C8FD00A92E05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shivansh.SportyConnect.SportyConnectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SportyConnect.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SportyConnect";
+			};
+			name = Debug;
+		};
+		2096FD2F2AC0C8FD00A92E05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shivansh.SportyConnect.SportyConnectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SportyConnect.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SportyConnect";
+			};
+			name = Release;
+		};
+		2096FD312AC0C8FD00A92E05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shivansh.SportyConnect.SportyConnectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SportyConnect;
+			};
+			name = Debug;
+		};
+		2096FD322AC0C8FD00A92E05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shivansh.SportyConnect.SportyConnectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SportyConnect;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2096FD012AC0C8FA00A92E05 /* Build configuration list for PBXProject "SportyConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2096FD282AC0C8FD00A92E05 /* Debug */,
+				2096FD292AC0C8FD00A92E05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2096FD2A2AC0C8FD00A92E05 /* Build configuration list for PBXNativeTarget "SportyConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2096FD2B2AC0C8FD00A92E05 /* Debug */,
+				2096FD2C2AC0C8FD00A92E05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2096FD2D2AC0C8FD00A92E05 /* Build configuration list for PBXNativeTarget "SportyConnectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2096FD2E2AC0C8FD00A92E05 /* Debug */,
+				2096FD2F2AC0C8FD00A92E05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2096FD302AC0C8FD00A92E05 /* Build configuration list for PBXNativeTarget "SportyConnectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2096FD312AC0C8FD00A92E05 /* Debug */,
+				2096FD322AC0C8FD00A92E05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2096FCFE2AC0C8FA00A92E05 /* Project object */;
+}
