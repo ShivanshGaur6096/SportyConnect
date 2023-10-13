@@ -15,7 +15,7 @@ struct CardView: View {
         NavigationView {
             ZStack {
                 VStack {
-                    Button("Open Bottom Sheet") {
+                    Button("User Profile section") {
                         isProfileViewPresented = true
                     }
                     .sheet(isPresented: $isProfileViewPresented) {

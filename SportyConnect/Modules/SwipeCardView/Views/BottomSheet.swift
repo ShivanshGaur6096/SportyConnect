@@ -18,14 +18,14 @@ struct ProfileView: View {
                     List {
                         Section {
                             HStack(spacing: 40) {
-                                Image(profileSection["accountPicture"] ?? "")
+                                Image("light_background")
                                     .resizable()
                                     .frame(width: 70, height: 70)
                                     .foregroundColor(.green)
                                     .clipShape(
                                         Circle()
                                     )
-                                Text(profileSection["accountName"] ?? "")
+                                Text("Hello User")
                             }
                             .padding(.vertical, 20) // Add vertical padding
                         }
@@ -59,29 +59,24 @@ struct ProfileView: View {
 }
 
 struct ProfileView_Previews: PreviewProvider {
+    @State static var isProfileViewPresented = false
 
     static var previews: some View {
-        @State var isProfileViewPresented = false
-        let dicttt = [
+        let dicttt: [String: Any] = [
             "profileSection": ["accountName": "Dummy Data", "accountPicture": "light_background"],
             "generalOptionSection": [["iconName": "speaker.slash", "buttonTitle": "Mute"],
-                                     ["iconName": "person.crop.circle", "buttonTitle": "Contact Info"],
-                                     ["iconName": "message", "buttonTitle": "Clear Chat"]],
+                                    ["iconName": "person.crop.circle", "buttonTitle": "Contact Info"],
+                                    ["iconName": "message", "buttonTitle": "Clear Chat"]],
             "advanceOptionSection": [["iconName": "delete.right", "buttonTitle": "Block"],
-                                     ["iconName": "minus.circle.fill", "buttonTitle": "Delete Chat"]]
+                                    ["iconName": "minus.circle.fill", "buttonTitle": "Delete Chat"]]
         ]
-        ProfileView(isProfileViewPresented: $isProfileViewPresented,
-                    profileSection: [
-                        "profileSection": ["accountName": "Dummy Data", "accountPicture": "light_background"],
-                        "generalOptionSection": [["iconName": "speaker.slash", "buttonTitle": "Mute"],
-                                                 ["iconName": "person.crop.circle", "buttonTitle": "Contact Info"],
-                                                 ["iconName": "message", "buttonTitle": "Clear Chat"]],
-                        "advanceOptionSection": [["iconName": "delete.right", "buttonTitle": "Block"],
-                                                 ["iconName": "minus.circle.fill", "buttonTitle": "Delete Chat"]]
-                    ],
-        )
+        return ProfileView(isProfileViewPresented: $isProfileViewPresented,
+                            profileSection: dicttt["profileSection"] as? [String: Any] ?? [:],
+                            generalOptionSection: dicttt["generalOptionSection"] as? [[String: String]] ?? [],
+                            advanceOptionSection: dicttt["advanceOptionSection"] as? [[String: String]] ?? [])
     }
 }
+
 
 struct ListButtonViews: View {
     let imageName: String

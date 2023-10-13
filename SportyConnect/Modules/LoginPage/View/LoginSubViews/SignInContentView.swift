@@ -31,7 +31,7 @@ struct SignInContentView: View {
                     // Action
                     isCreateAccountButtonTapped = true // Activate the NavigationLink
                 } label: {
-                    Text("F**K CREATING ACCOUNTS \nJust Swipe")
+                    Text("NO ACCOUNTS CREATION \nJust Swipe")
                         .foregroundColor(.white)
                         .font(.headline)
                         .padding()
